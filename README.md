@@ -1,5 +1,5 @@
 # DataFlow简介 DataFlow Introduce
-DataFlow是数据流编程框架的一个轻量实现，没有任何依赖只需要包好头文件即可。数据流编程框架在复杂的数据处理上非常实用，可以非常方便的进行数据处理逻辑的分离和重组，从而将一个复杂的处理应用解耦。
+DataFlow是数据流编程框架的一个轻量实现，没有任何依赖只需要包含头文件即可。数据流编程框架在复杂的数据处理上非常实用，可以非常方便的进行数据处理逻辑的分离和重组，从而将一个复杂的处理应用解耦。
 
 DataFlow is a lite implement of the dataflow program model, it's a header-only project and easy to use in the data process field. it could split and merge the data process business logically, by this way, it could face a complex data process. 
 ## DataFlow的抽象概念 DataFlow Abstract Concept
