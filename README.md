@@ -88,7 +88,7 @@ int main()
 }
 ```
 当然如果希望数据流在不重新编译代码的情况下重新链接，那么可以借助[chaiscript](https://chaiscript.com/index.html)这种嵌入式脚本来实现
-下面这个例子就是将chaiscript作为重组数据流链接的入口，由于仅仅是数据流重组调用了解释性语言，执行并不会受到很大的效率影响。
+下面这个例子就是将chaiscript作为重组数据流链接的入口，由于仅仅是数据流重组调用了解释性语言，执行效率并不会受到很大的影响。
 Of course, if you want the data flow to be relinked without recompiling the code, you can use an embedded script such as [chaiscript](https://chaiscript.com/index.html) to achieve this, The following example uses chai-script as the entry to reorganize the data flow link. Since only the data flow reorganization calls the interpretive language, the execution will not be greatly affected by the efficiency.
 ```cpp
 int main()
