@@ -10,7 +10,7 @@ DataFlow is a lite implement of the dataflow program model, it's a header-only p
 >节点顾名思义就是组成数据流的单元，多个节点彼此相连即可组成一个数据处理的逻辑链条。
 >The node is the basic element of dataflow, many nodes connect to a dataflow graphic for logical business.
 
->触发器提供控制计算传播的机制，节点的计算是受触发器控制的，触发信号为byte类型，可以提供254种不同的触发类型，必要时可以修改类型以支持更多的触发类型。计算传播的控制非常重要，它可以减少不必要的计算并支持无关计算的并发执行。
+>触发器提供控制计算传播的机制，节点的计算是受触发器控制的，触发信号为byte类型，可以提供254种不同的触发值，必要时可以修改类型以支持更多的触发值。计算传播的控制非常重要，它可以减少不必要的计算并支持无关计算的并发执行。
 >Triggers provide a mechanism to control the propagation of computations. The computation of nodes is controlled by triggers. The trigger signal is of byte type, and 254 different values can be provided. If necessary, the types can be modified to support more triggers values. Control of computation propagation is important to reduce unnecessary computations and support concurrent execution.
 
 >信号端提供节点和节点间数据的传输通道，输出信号的端口为OutPort，输入信号的端口为InPort，框架通过泛型可以保证信号的关联类型一定是一致的，但是无法保证关联是正确的。
